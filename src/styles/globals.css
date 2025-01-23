@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input {
+    border: 1px solid black;
+}
+
+button {
+    border: 1px solid black;
+    background: lightblue;
+}
+
+.search {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.app {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.timezone-indicator {
+    margin-top: 14px;
+    position: absolute;
+    color: transparent;
+    opacity: 35%;
+}
+
+.timezone-scroller {
+    margin-top: 14px;
+    width: 500px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.time {
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.timezone-area {
+    display: flex;
+    align-items: center;
+}
+
+.city {
+    font-family: monospace;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
